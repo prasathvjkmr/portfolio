@@ -1,7 +1,26 @@
 import "./App.css";
+import Navbar from "./layout/Navbar";
+import Intro from "./pages/Intro";
+import About from "./pages/About";
+import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
+import Footer from "./layout/Footer";
 
 function App() {
-  return <div className="App">reAct</div>;
+  return (
+    <main className="App">
+      <Navbar />
+      <Intro />
+      <About />
+      <Experience />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
+    </main>
+  );
 }
 
 export default App;
