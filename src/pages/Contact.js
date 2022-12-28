@@ -40,7 +40,7 @@ export default function Contact() {
         </p>
         <form
           name="contact"
-          // method="POST"
+          method="POST"
           data-netlify="true"
           className="mx-md-5 my-md-4"
           onSubmit={handleSubmit}
