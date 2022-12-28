@@ -1,0 +1,36 @@
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+// @font-face {
+//   font-family: "La Belle Aurore";
+//   src: url("../../assets/fonts/LaBelleAurore.ttf") format("ttf");
+// }
+
+// @font-face {
+//   font-family: "Coolvetica";
+//   src: url("../../assets/fonts/coolvetica\ rg.otf") format("otf");
+// }
+
+// input,
+// textarea {
+//   font-family: "Helvetica Neue";
+// }
+
+// html {
+//   font-size: 62.5%;
+// }
+
+body {
+  margin: 0;
+  font-family: 300 16px/1.4 "Montserrat", "sans-serif" !important;
+  // font-family:  "Montserrat", "sans-serif";
+  // overflow: hidden;
+  background-color: #000000;
+  color: #eeeeee;
+  --webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}

@@ -1,0 +1,15 @@
+$one_color: #000000;
+$second_color: #c69749;
+$third_color: #735f32;
+$forth_color: #eeeeee;
+$fifth_color: #282a3a;
+
+$primary: $second_color;
+$secondary: $third_color;
+
+@import "bootstrap";
+
+body {
+  background-color: $one_color;
+  color: $forth_color;
+}

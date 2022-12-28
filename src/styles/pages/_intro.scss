@@ -1,0 +1,15 @@
+#intro {
+  font-size: larger;
+
+  a {
+    text-shadow: 0.5px 0px 2px #c69749;
+  }
+}
+
+.introName {
+  display: block;
+  font-size: xx-large;
+  &:hover {
+    text-shadow: 0px 0px 2px #000, 0px 0px 4px #fff;
+  }
+}

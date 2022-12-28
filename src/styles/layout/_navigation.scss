@@ -1,0 +1,16 @@
+.logoImage {
+  border-radius: 0.3rem;
+}
+
+nav {
+  font-weight: bold;
+
+  img:hover {
+    box-shadow: 1px 1px 1px #fff;
+  }
+
+  a:hover {
+    color: black !important;
+    text-shadow: 0px 0px 1px #fff;
+  }
+}
