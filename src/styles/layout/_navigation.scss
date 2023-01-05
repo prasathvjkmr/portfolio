@@ -3,14 +3,18 @@
 }
 
 nav {
-  font-weight: bold;
+  .nav-item > a {
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+  }
 
   img:hover {
     box-shadow: 1px 1px 1px #fff;
   }
 
-  a:hover {
+  a:hover,
+  a:focus {
     color: black !important;
-    text-shadow: 0px 0px 1px #fff;
+    text-shadow: 0px 0px 2px #fff;
   }
 }
