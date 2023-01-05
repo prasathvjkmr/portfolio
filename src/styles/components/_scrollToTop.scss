@@ -1,0 +1,15 @@
+.scrolltotop {
+  background-color: unset;
+  color: white;
+  border: unset;
+  z-index: 100;
+  position: fixed;
+  font-size: larger;
+  bottom: 2%;
+  right: 2%;
+}
+
+// Horizontal Scrollbar Hide
+body {
+  overflow-x: hidden;
+}

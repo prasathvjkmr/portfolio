@@ -4,10 +4,12 @@ import {
   faCodepen,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function Footer() {
   return (
     <>
+      <ScrollToTop />
       <div className="bg-secondary mt-md-1 py-3">
         <ul className="list-group d-flex flex-row justify-content-center">
           <li className="list-group-item rounded-2 mx-2">
