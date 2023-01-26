@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-md bg-secondary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#intro">
+        <a className="navbar-brand ms-lg-2" href="#intro">
           <img
             className="logoImage border border-light border-opacity-75"
             src={Logo}
@@ -25,7 +25,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex justify-content-lg-evenly w-100">
             <li className="nav-item">
               <a className="nav-link" href="#about" aria-current="page">
                 About
