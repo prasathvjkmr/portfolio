@@ -5,7 +5,7 @@ export default function Intro() {
         <div className="text-start">
           Hello World! My Name is{" "}
           <div>
-            <strong className="introName ms-md-5">Prasath.</strong>
+            <strong className="introName ms-md-5 stroke">Prasath.</strong>
           </div>
         </div>
         <p> I love exploring new things!</p>

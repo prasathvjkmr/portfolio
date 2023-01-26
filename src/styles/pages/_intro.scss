@@ -11,6 +11,13 @@
   font-size: xx-large;
 }
 
+.stroke {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
 strong.introName {
   transition: all 1s ease-out;
   &::first-letter {

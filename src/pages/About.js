@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <div>
-        <h3 id="about" className="heading">
+        <h3 id="about" className="heading stroke">
           About me
         </h3>
       </div>

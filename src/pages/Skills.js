@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <>
       <div>
-        <h3 id="skills" className="heading">
+        <h3 id="skills" className="heading stroke">
           Here is a list of the technologies that I'm familiar with!
         </h3>
       </div>

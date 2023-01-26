@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <>
       <div>
-        <h3 id="projects" className="heading">
+        <h3 id="projects" className="heading stroke">
           Projects I've Built
         </h3>
       </div>

@@ -2,7 +2,7 @@ export default function Experience() {
   return (
     <>
       <div>
-        <h3 id="experience" className="heading">
+        <h3 id="experience" className="heading stroke">
           Where I've worked
         </h3>
       </div>

@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <>
       <div>
-        <h3 id="contact" className="heading">
+        <h3 id="contact" className="heading stroke">
           What's Next?
         </h3>
       </div>
