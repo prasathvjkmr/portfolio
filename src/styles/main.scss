@@ -3,8 +3,6 @@
   padding: 0px;
 }
 
-@import "animate.css";
-
 @import "abstracts/functions", "abstracts/mixins", "abstracts/placeholders",
   "abstracts/variables";
 
@@ -17,6 +15,6 @@
 @import "components/components";
 
 @import "pages/intro", "pages/about", "pages/experience", "pages/projects",
-  "pages/skills", "pages/contact", "pages/education";
+  "pages/skills", "pages/contact";
 
 @import "themes/themes";
