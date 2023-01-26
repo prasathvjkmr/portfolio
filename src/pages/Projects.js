@@ -23,9 +23,7 @@ export default function Projects() {
                 FRONTEND PROJECTS
               </a>
             </h5>
-            <p>
-              A task to complete #101projects using HTML, CSS, and JAVASCRIPT.
-            </p>
+            <p>A road to #101projects using HTML, CSS, and JAVASCRIPT.</p>
           </div>
         </div>
       </div>
