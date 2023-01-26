@@ -1,17 +1,12 @@
-import { AnimationOnScroll } from "react-animation-on-scroll";
-
 export default function About() {
   return (
     <>
-      <AnimationOnScroll animateIn="animate__headShake animate__delay-1s">
+      <div>
         <h3 id="about" className="heading">
           About me
         </h3>
-      </AnimationOnScroll>
-      <AnimationOnScroll
-        animateIn="animate__fadeIn"
-        animateOut="animate__fadeOut"
-      >
+      </div>
+      <div>
         <div className="about container-fluid">
           <p>
             Hello! Interestingly, I got introduced to programming in my freshman
@@ -35,7 +30,7 @@ export default function About() {
             responsive design.
           </p>
         </div>
-      </AnimationOnScroll>
+      </div>
     </>
   );
 }

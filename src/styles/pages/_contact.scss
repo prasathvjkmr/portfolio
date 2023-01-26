@@ -1,6 +1,16 @@
+#contact {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 .contact.container-fluid {
   font-size: larger;
-
+  form {
+    max-width: 1000px;
+    .form-control {
+      margin-bottom: 0.5rem;
+    }
+  }
   a {
     text-shadow: 0.5px 0px 2px #c69749;
   }

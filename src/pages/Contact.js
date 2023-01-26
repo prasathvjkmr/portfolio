@@ -1,7 +1,4 @@
-// import { Link } from "react-router-dom";
-
 import { useState } from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -29,15 +26,12 @@ export default function Contact() {
 
   return (
     <>
-      <AnimationOnScroll animateIn="animate__headShake animate__delay-1s">
+      <div>
         <h3 id="contact" className="heading">
           What's Next?
         </h3>
-      </AnimationOnScroll>
-      <AnimationOnScroll
-        animateIn="animate__fadeIn"
-        animateOut="animate__fadeOut"
-      >
+      </div>
+      <div>
         <div className="contact container-fluid">
           <h4>Get In Touch</h4>
           <p>
@@ -56,7 +50,7 @@ export default function Contact() {
             name="contact"
             method="POST"
             data-netlify="true"
-            className="mx-md-5 my-md-4"
+            className="mx-auto my-md-4"
             onSubmit={handleSubmit}
           >
             <div>
@@ -106,7 +100,7 @@ export default function Contact() {
             </div>
           </form>
         </div>
-      </AnimationOnScroll>
+      </div>
     </>
   );
 }

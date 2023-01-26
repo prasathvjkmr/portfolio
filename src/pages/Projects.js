@@ -1,17 +1,12 @@
-import { AnimationOnScroll } from "react-animation-on-scroll";
-
 export default function Projects() {
   return (
     <>
-      <AnimationOnScroll animateIn="animate__headShake animate__delay-1s">
+      <div>
         <h3 id="projects" className="heading">
           Projects I've Built
         </h3>
-      </AnimationOnScroll>
-      <AnimationOnScroll
-        animateIn="animate__fadeIn"
-        animateOut="animate__fadeOut"
-      >
+      </div>
+      <div>
         <div className="projects container-fluid">
           <div>
             <h5>FARMARKET</h5>
@@ -22,8 +17,18 @@ export default function Projects() {
               <li>JAVASCRIPT</li>
             </ul>
           </div>
+          <div>
+            <h5>
+              <a href="https://github.com/prasathvjkmr/ProjectsWorkspace/tree/main/Frontend">
+                FRONTEND PROJECTS
+              </a>
+            </h5>
+            <p>
+              A task to complete #101projects using HTML, CSS, and JAVASCRIPT.
+            </p>
+          </div>
         </div>
-      </AnimationOnScroll>
+      </div>
     </>
   );
 }
