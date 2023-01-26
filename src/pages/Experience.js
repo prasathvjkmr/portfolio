@@ -14,7 +14,7 @@ export default function Experience() {
               Quadapp Technologies
             </a>{" "}
           </h4>
-          <h6>July 2022 - Present</h6>
+          <h6>July 2022 - December 2022</h6>
           <p>Responsible for code development and responsive Web Development</p>
         </div>
       </div>
