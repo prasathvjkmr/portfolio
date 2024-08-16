@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #F2E8C6;
+    color: #800000;
+    font-family: "Shantell Sans", cursive;
+    transition: all 0.4s ease-in-out;
+}
+
+.App {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #F2E8C6;
+}
+
+.hero {
+    height: 100vh;
+    /* background: url('assets/images/logo.png') center/contain no-repeat; */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #800000;
+    border: 2px solid #800000;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about,
+.projects,
+.skills,
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    font-size: x-large;
+    max-width: 1000px;
+    /* border-bottom: 4px solid #333; */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer,
+header {
+    min-width: 100dvw;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.scrolltotop {
+    background-color: unset;
+    color: #800000;
+    border: unset;
+    z-index: 100;
+    position: fixed;
+    font-size: larger;
+    bottom: 2%;
+    right: 2%;
+    filter: drop-shadow(0px 0px 4px white);
+    /* box-shadow: ; */
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Matemasie", sans-serif;
+    padding: 1rem 0rem;
+}
+
+p {
+    color: #982B1C;
+}
+
+
+#projects a {
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+    color: #800000;
+    margin-inline-start: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+
+#skills ul li {
+    list-style-type: none;
+    transition: margin 0.4s ease-in-out;
+}
+
+
+#skills ul li:hover {
+    text-decoration: underline;
+    margin-inline-start: 1rem;
+}
+
+#contact input,
+#contact textarea {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-inline: auto;
+}
+
+
+#contact textarea,
+#contact input {
+    width: inherit;
+    border: 0.2rem solid #800000;
+    border-radius: 1rem;
+}

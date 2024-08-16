@@ -1,25 +1,26 @@
-import "./App.scss";
-import Navbar from "./layout/Navbar";
-import Intro from "./pages/Intro";
+import React from "react";
+import "./App.css";
+import Header from "./layout/Header";
+import Hero from "./pages/Hero";
 import About from "./pages/About";
-import Experience from "./pages/Experience";
-import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Footer from "./layout/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <main className="App">
-      <Navbar />
-      <Intro />
+    <div className="App">
+      <ScrollToTop />
+      <Header />
+      <Hero />
       <About />
-      <Experience />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
-    </main>
+    </div>
   );
 }
 

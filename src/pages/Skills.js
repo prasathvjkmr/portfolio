@@ -1,23 +1,21 @@
-export default function Skills() {
+import React from "react";
+
+const skills = ['HTML', 'CSS', 'SASS', 'Bootstrap', 
+  'Styled Components', 'CSS Modules', 
+  'JavaScript', 'React JS', 'Figma', 
+  'Canva', 'Git'];
+
+const Skills = () => {
   return (
-    <>
-      <div>
-        <h3 id="skills" className="heading stroke">
-          Here is a list of the technologies that I'm familiar with!
-        </h3>
-      </div>
-      <div>
-        <div className="skills container-fluid">
-          <ul className="skillList">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>BOOTSTRAP</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-          </ul>
-        </div>
-      </div>
-    </>
+    <section id="skills" className="skills">
+      <h2>My Skills</h2>
+      <ul>
+        {skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
+    </section>
   );
-}
+};
+
+export default Skills;

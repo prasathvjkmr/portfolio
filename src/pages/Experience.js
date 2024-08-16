@@ -11,7 +11,7 @@ export default function Experience() {
           <h4>
             Frontend Developer @{" "}
             <a href="https://www.quadapp.in/" target="_blank" rel="noreferrer">
-              Quadapp Technologies
+             xyz company
             </a>{" "}
           </h4>
           <h6>July 2022 - December 2022</h6>
