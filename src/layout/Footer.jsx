@@ -2,10 +2,10 @@ import React from "react";
 import linkedInIcon from "../assets/images/icons/footer/linkedin.svg";
 import locationIcon from "../assets/images/icons/footer/location.svg";
 import mailIcon from "../assets/images/icons/footer/mail.svg";
-import facebookIcon from "../assets/images/icons/socials/facebook.svg";
-import instagramIcon from "../assets/images/icons/socials/instagram.svg";
-import linkedInSocialsIcon from "../assets/images/icons/socials/linkedin.svg";
-import xIcon from "../assets/images/icons/socials/x.svg";
+import facebookIcon from "../assets/images/icons/footer/socials/facebook.svg";
+import instagramIcon from "../assets/images/icons/footer/socials/instagram.svg";
+import linkedInSocialsIcon from "../assets/images/icons/footer/socials/linkedin.svg";
+import xIcon from "../assets/images/icons/footer/socials/x.svg";
 
 const Footer = () => {
   const navLinks = [
