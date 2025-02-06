@@ -1,7 +1,7 @@
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Footer from "./layout/Footer";
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <Skills />
       <Experience />
-      <Work />
+      {/* <Work /> */}
       <Contact />
       <Resume />
       <Footer />

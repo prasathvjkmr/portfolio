@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 
 export default function Socials() {
   const linkData = [
@@ -21,7 +22,12 @@ export default function Socials() {
     <div className="container fixed left-8 top-1/2 transform -translate-y-1/2 flex items-center w-auto z-50">
       <ul className="flex flex-col items-center">
         {linkData.map((socialLink, index) => (
-          <li key={index}>
+          <motion.li
+            key={index}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }} // Stagger the animation delay
+          >
             <a
               href={socialLink.hrefLink}
               target="_blank"
@@ -29,9 +35,11 @@ export default function Socials() {
               aria-label={`Visit my ${socialLink.iconName} profile`}
               className="hover:text-teal-500 text-center"
             >
-              <i
+              <motion.i
                 className={`bi bi-${socialLink.iconName} text-2xl w-8 text-black block rounded-md bg-teal-500`}
-              ></i>
+                whileHover={{ scale: 1.2 }} // Hover effect: scale the icon
+                transition={{ duration: 0.3 }}
+              ></motion.i>
             </a>
             {/* Add a vertical divider '|' between icons */}
             {index < linkData.length - 1 && (
@@ -39,7 +47,7 @@ export default function Socials() {
                 |
               </span>
             )}
-          </li>
+          </motion.li>
         ))}
       </ul>
     </div>
