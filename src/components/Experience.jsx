@@ -37,17 +37,21 @@ const Experience = () => {
     <section id="experience" className="py-12 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-20">
         <h2 className="text-2xl font-bold text-center text-gray-800 dark:text-white bg-green py-2 rounded-t-[20px] font-mono">
-          2+ years of Work Experiences
+          2.5 years of Work Experiences
         </h2>
 
         {/* Tab Navigation */}
         <div className="border-b border-gray-200 dark:border-gray-700">
           <ul
-            className="flex flex-wrap justify-evenly sm:justify-center -mb-px text-sm font-medium text-center bg-midnight font-mono"
+            className="flex flex-wrap justify-evenly sm:justify-center -mb-px text-sm font-medium text-center bg-midnight font-mono flex-col md:flex-row"
             role="tablist"
           >
             {Object.keys(experiences).map((key) => (
-              <li key={key} className="me-2 mb-2 sm:mb-0" role="presentation">
+              <li
+                key={key}
+                className="me-2 mb-2 sm:mb-0 w-full md:w-[45%]"
+                role="presentation"
+              >
                 <button
                   className={`inline-block p-4 border-b-2 rounded-t-lg text-2xl font-semibold sm:text-lg ${
                     activeTab === key
@@ -67,8 +71,6 @@ const Experience = () => {
             ))}
           </ul>
         </div>
-
-        {/* Tab Content */}
         <div>
           <AnimatePresence mode="wait">
             <motion.div
@@ -96,13 +98,14 @@ const Experience = () => {
                 ))}
                 <li>
                   <span>Contact : </span>
-                  <span>{experiences[activeTab].contact.name} </span>
-                  (<a
+                  <span>{experiences[activeTab].contact.name} </span>(
+                  <a
                     href={`mailto:${experiences[activeTab].contact.email}`}
                     className="text-blue-500 hover:underline"
                   >
                     {experiences[activeTab].contact.email}
-                  </a>)
+                  </a>
+                  )
                 </li>
               </ul>
             </motion.div>

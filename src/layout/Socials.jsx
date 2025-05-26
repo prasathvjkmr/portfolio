@@ -19,7 +19,7 @@ export default function Socials() {
   ];
 
   return (
-    <div className="container fixed left-8 top-1/2 transform -translate-y-1/2 flex items-center w-auto z-50">
+    <div className="container fixed left-2 top-1/2 transform -translate-y-1/2 flex items-center w-auto z-50">
       <ul className="flex flex-col items-center">
         {linkData.map((socialLink, index) => (
           <motion.li

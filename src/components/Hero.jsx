@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <motion.section
       className="text-center py-16 pt-24"
-      id="home"
+      id="about"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -18,7 +18,7 @@ const Hero = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
       >
-        Hi, I am
+        Greetings, Visionaries! 👋
       </motion.h2>
 
       {/* Name with spring effect */}
@@ -28,7 +28,7 @@ const Hero = () => {
         animate={{ scale: 1 }}
         transition={{ type: "spring", stiffness: 150 }}
       >
-        Prasath
+        I'm Prasath
       </motion.h1>
 
       {/* Profile Image with hover animation */}
@@ -49,7 +49,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        React Specialist
+        React JS Specialist 🚀
       </motion.h3>
 
       <motion.h3
@@ -58,7 +58,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}
       >
-        Frontend Developer
+        Frontend Developer 💡
       </motion.h3>
 
       {/* Description with staggered animation */}
@@ -68,9 +68,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 1 }}
       >
-        Hi there! 👋 I’m Prasath, Front-End Developer. I turn Tea ☕ and code 🖥️
-        into pixel-perfect, web magic. Let's create something fabulous together!
-        🚀
+        As a results-driven React JS developer, I architect transformative digital experiences that elevate brands and empower teams. My expertise lies in translating visionary concepts into robust, scalable web solutions that captivate users and drive business growth. 🌟
       </motion.p>
 
       <motion.p
@@ -79,8 +77,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        Got a design or a bug? Let’s create something fun and fabulous together!
-        🚀
+        Let’s collaborate to turn your strategic ambitions into pixel-perfect reality. Together, we’ll brew innovation ☕ and code excellence 🖥️ for your organization’s success.
       </motion.p>
     </motion.section>
   );

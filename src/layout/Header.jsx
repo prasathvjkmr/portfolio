@@ -11,7 +11,7 @@ const Header = () => {
     { hrefLink: '#about', textContent: 'About me' },
     { hrefLink: '#skills', textContent: 'Skills' },
     { hrefLink: '#experience', textContent: 'Experience' },
-    // { hrefLink: '#work', textContent: 'Work' },
+    { hrefLink: '#work', textContent: 'Work' },
     { hrefLink: '#contact', textContent: 'Contact' },
   ];
 
@@ -49,8 +49,7 @@ const Header = () => {
           <motion.a
             href={resumePdf}
             target="_blank"
-            className="bg-teal-500 px-5 py-2 rounded hover:bg-transparent hover:outline hover:outline-offset-0 transition hover:outline-green hover:text-green flex gap-4 font-mono text-2xl font-bold"
-            whileHover={{ scale: 1.05 }}
+            className="bg-teal-500 px-5 py-2 rounded hover:bg-transparent hover:outline hover:outline-offset-0 transition  ease-in-out hover:outline-green hover:text-green flex gap-4 font-mono text-2xl font-bold"
           >
             Resume
           </motion.a>
@@ -83,7 +82,6 @@ const Header = () => {
               href={resumePdf}
               target="_blank"
               className="bg-teal-500 px-5 py-2 rounded hover:bg-transparent hover:outline hover:outline-offset-0 transition hover:outline-green hover:text-green font-mono text-xl font-bold mx-auto"
-              whileHover={{ scale: 1.05 }}
               onClick={() => setIsOpen(false)}
             >
               Resume
